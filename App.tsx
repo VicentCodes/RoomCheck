@@ -4,10 +4,10 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { StyleSheet, ActivityIndicator } from 'react-native';
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { Toaster } from 'sonner-native';
-import { BottomTabNavigator } from './components/BottomTabNavigator';
+import { BottomTabNavigator } from './src/components/layout/BottomTabNavigator';
 
 import { useState, useEffect } from 'react';
-import { supabase } from './lib/supabase';
+import { supabase } from './src/api/supabase';
 import { Session } from '@supabase/supabase-js';
 
 type RootStackParamList = {

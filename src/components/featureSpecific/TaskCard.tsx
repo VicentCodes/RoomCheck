@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import type { NavigationProp } from '@react-navigation/native';
-import type { BottomTabParamList } from '../components/BottomTabNavigator'; // Ajusta la ruta
+import type { BottomTabParamList } from '../layout/BottomTabNavigator'; // Ajusta la ruta
 
 type Task = {
   id: string;

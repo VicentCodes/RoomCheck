@@ -1,9 +1,9 @@
 import { ScrollView, StyleSheet, View } from 'react-native';
-import { Header } from '../components/Header';
+import { Header } from '../components/layout/Header';
 import { TaskCard } from '../components/TaskCard';
 import { PaymentCard } from '../components/PaymentCard';
-import { PollCard } from '../components/PollCard';
-import { BottomNav } from '../components/BottomNav';
+import { PollCard } from '../components/featureSpecific/PollCard';
+import { BottomNav } from '../components/layout/BottomNav';
 
 export default function HomeScreen() {
   return (

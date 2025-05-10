@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
-import type { BottomTabParamList } from '../components/BottomTabNavigator'; // ajusta la ruta si es diferente
+import type { BottomTabParamList } from './BottomTabNavigator'; // ajusta la ruta si es diferente
 import type { NavigationProp } from '@react-navigation/native';
 
 type Payment = {

@@ -2,11 +2,11 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
 
-import HomeScreen from "../screens/HomeScreen";
-import TasksScreen from "../screens/TasksScreen";
-import PaymentsScreen from "../screens/PaymentsScreen";
-import NotificationsScreen from "../screens/NotificationsScreen";
-import ProfileScreen from "../screens/ProfileScreen";
+import HomeScreen from "../../screens/HomeScreen";
+import TasksScreen from "../../screens/TasksScreen";
+import PaymentsScreen from "../../screens/PaymentsScreen";
+import NotificationsScreen from "../../screens/NotificationsScreen";
+import ProfileScreen from "../../screens/ProfileScreen";
 
 export type BottomTabParamList = {
   HomeTab: undefined;
